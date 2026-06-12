@@ -6,7 +6,7 @@ const app = express();
 
 // Define a route handler for the homepage
 app.get('/',(req,res)=>{
-    res.send("hello bacho ci cd chl gaya kya");
+    res.send("hello bacho ci cd chl gaya kya ab to");
 })
 
 
