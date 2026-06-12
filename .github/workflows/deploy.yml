@@ -24,4 +24,4 @@ jobs:
             docker stop myapp || true
             docker rm myapp || true
             docker build -t myapp .
-            docker run -d --name myapp -p 3000:3000 --restart always myapp
+            docker run -d --name myapp -p 3000:3000 --env-file .env --restart always myapp
